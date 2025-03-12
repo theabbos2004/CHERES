@@ -7,7 +7,7 @@ import { Documents, InfoProducts, MenuList } from "../constans";
 const Footer = () => {
   return (
     <footer className="bg-[var(--color-black-2)] text-white py-10 px-6">
-      <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
+      <div className="container mx-auto grid grid-cols-2 lg:grid-cols-4 gap-8">
         <div className="flex flex-col items-start gap-5">
           <Link to={"/"} className="flex flex-col">
             <img
